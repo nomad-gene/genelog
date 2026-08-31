@@ -8,8 +8,8 @@ import type { ReactNode } from 'react';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { routing } from '@/i18n/routing';
 
-import { LayoutFooter } from './_layout/LayoutFooter';
-import { LayoutHeader } from './_layout/LayoutHeader';
+import { LayoutFooter } from './_components/LayoutFooter';
+import { LayoutHeader } from './_components/LayoutHeader';
 import './globals.css';
 
 const geistSans = Geist({
